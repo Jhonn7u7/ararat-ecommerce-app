@@ -1,4 +1,4 @@
-<template>
+<template> <!-- SIN USAR -->
     <div class="hero min-h-screen bg-base-200">
   <div class="hero-content ">
     <div class="text-center lg:text-left">

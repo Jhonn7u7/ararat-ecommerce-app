@@ -1,5 +1,5 @@
-<template>
-    <div class="flex flex-col w-full flex-nowrap lg:flex-row mt-6">
+<template> <!-- ESTRUCTURA DEL CARITO -->
+<div class="flex flex-col w-full flex-nowrap lg:flex-row mt-6">
   <div class="grid h-auto flex-grow card  rounded-box place-items-center">
     <div class="overflow-x-auto w-full">
   <table class="table w-full lg:m-6">
@@ -47,18 +47,18 @@
       </tr>
     </tbody>
   </table>
-</div>
+    </div>
   </div>
   <div class="grid h-auto flex-grow place-items-center">
     <div class="card w-96 bg-base-100 shadow-xl">
-  <div class="card-body">
-    <h2 class="card-title">Resumen del pedido!</h2>
-    <p>Subtotal: <span class="font-black text-2xl">$MXN259.00</span></p>
-    <div class="card-actions">
-      <button class="btn hover:bg-red-200 bg-red-300 outline-none m-2">Pagar Ahora</button>
+      <div class="card-body">
+        <h2 class="card-title">Resumen del pedido!</h2>
+        <p>Subtotal: <span class="font-black text-2xl">$MXN259.00</span></p>
+        <div class="card-actions">
+        <button class="btn hover:bg-red-200 bg-red-300 outline-none m-2">Pagar Ahora</button>
+        </div>
+     </div>
     </div>
-  </div>
-</div>
   </div>
 </div>
 </template>
